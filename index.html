@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JavaScript Practice Assignment</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <section class="heading">
+        <h1><b><i>Arrays, Functions, Basic Functions, and Objects</i></b></h1>
+        <hr>
+    </section>
+    
+
+    <div class="herosection 1">
+        <hr>
+        <h2>Question 1: Create an array of five numbers and print all elements.</h2>
+        <h3>code:</h3>
+        <pre>let numbers = [10, 20, 30, 40, 50];
+    console.log(numbers);</pre>
+        <h3> output</h3>
+        <pre>[10, 20, 30, 40, 50]</pre>
+    <hr>
+    </div>
+    <div class="herosection2">
+        <hr>
+        <h2>Question 2: Create an array of three fruits and print the first and last elements.</h2>
+        <h3>code:</h3>
+        <pre>let fruits = ["Apple", "Banana", "Orange"];
+        console.log(fruits[0]);
+        console.log(fruits[2]);</pre>
+        <h3>output</h3>
+        <pre>  Apple
+ Orange</pre>
+    <hr>
+    </div>
+    <div class="herosection3">
+        <hr>
+        <h2>Question 3: Add "Mango" to the end of an array using push().</h2>
+        <h3>code:</h3>
+        <pre>let fruits = ["Apple", "Banana", "Orange"];
+         fruits.push("Mango");
+        console.log(fruits);</pre>
+        <h3>output</h3>
+        <pre>["Apple", "Banana", "Orange", "Mango"]  </pre>
+    <hr>
+    </div>
+
+       </div>
+    <div class="herosection4">
+        <hr>
+        <h2>Question 4: Find the length of the following array:<h2>
+        <h3>code:</h3>
+        <pre>let numbers = [10, 20, 30, 40, 50];
+            console.log(numbers.length);</pre>
+        <h3>output</h3>
+        <pre>5 </pre>
+    <hr>
+    </div>
+
+      <div class="herosection5">
+        <hr>
+        <h2>Question 5: Write a function that prints "Hello World".<h2>
+        <h3>code:</h3>
+        <pre>function hello() {
+          console.log("Hello World");
+        }
+         hello();</pre>
+        <h3>output</h3>
+        <pre>Hello World </pre>
+    <hr>
+    </div>
+
+    <div class="herosection6">
+        <hr>
+        <h2>Question 6: Write a function that takes two numbers as parameters and prints their sum.<h2>
+        <h3>code:</h3>
+        <pre>function add(a, b) 
+            {
+            console.log(a + b); 
+        }
+            add(10, 20);</pre>
+        <h3>output</h3>
+        <pre>30</pre>
+    <hr>
+    </div>
+
+        <div class="herosection7">
+        <hr>
+        <h2>Question 7: Write a function that takes a number and returns its square.<h2>
+        <h3>code:</h3>
+        <pre>function square(num) {
+            return num * num;
+        }
+        console.log(square(5));</pre>
+        <h3>output</h3>
+        <pre>25</pre>
+    <hr>
+    </div>
+    
+        <div class="herosection8">
+        <hr>
+        <h2>Question 8: Write a function that checks whether a number is even or odd.<h2>
+        <h3>code:</h3>
+        <pre>function checkNumber(num) {
+    if (num % 2 === 0) {
+        console.log("Even");
+    } else {
+        console.log("Odd");
+    }
+}
+checkNumber(7);
+</pre>
+        <h3>output</h3>
+        <pre>odd</pre>
+    <hr>
+    </div>
+
+
+     <div class="herosection9">
+        <hr>
+        <h2>Question 9: Write a function to find the largest of two numbers.<h2>
+        <h3>code:</h3>
+        <pre>function largest(a, b) {
+    if (a > b) {
+        console.log(a);
+    } else {
+        console.log(b);
+    }
+}
+largest(15, 25);
+
+</pre>
+        <h3>output</h3>
+        <pre>25</pre>
+    <hr>
+    </div>
+
+     <div class="herosection10">
+        <hr>
+        <h2>Question 10: Write a function that takes a name as an argument and prints a welcome message.<h2>
+        <h3>code:</h3>
+        <pre>function welcome(name) {
+    console.log("Welcome " + name);
+}
+
+welcome("Ali");
+
+
+</pre>
+        <h3>output</h3>
+        <pre>Welcome Ali</pre>
+    <hr>
+    </div>
+  
+    <div class="herosection11">
+        <h2>Question 11: Create a student object with name, age, and class properties. Print all three properties.</h2>
+        <h3>code:</h3>
+        <pre>let student = {
+    name: "Ali",
+    age: 18,
+    class: "Intermediate"
+};
+
+console.log(student.name);
+console.log(student.age);
+console.log(student.class);
+
+
+
+</pre>
+        <h3>output</h3>
+        <pre>Ali
+18
+Intermediate
+</pre>
+    <hr>
+    </div>
+
+    <div class="herosection12">
+        <h2>Question 12: Create a car object with brand, model, and color properties. Print the car's brand.</h2>
+        <h3>code:</h3>
+        <pre>
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    color: "White"
+};
+console.log(car.brand);
+</pre>
+        <h3>output</h3>
+        <pre>Toyota
+</pre>
+    <hr>
+    </div>
+       <div class="herosection13">
+        <h2>Question 13: Update the age of the following student object to 20 and print it..</h2>
+        <h3>code:</h3>
+        <pre>
+let student = {
+    name: "Ali",
+    age: 18
+};
+
+student.age = 20;
+
+console.log(student.age);
+
+</pre>
+        <h3>output</h3>
+        <pre>20
+</pre>
+    <hr>
+    </div>
+
+    <div class="herosection14">
+        <h2>Question 14: Write a function that takes an array of numbers and returns the sum of all elements.</h2>
+        <h3>code:</h3>
+        <pre>
+function sumArray(numbers) {
+    let sum = 0;
+
+    for (let i = 0; i < numbers.length; i++) {
+        sum = sum + numbers[i];
+    }
+
+    return sum;
+}
+
+let numbers = [10, 20, 30, 40, 50];
+
+console.log(sumArray(numbers));
+
+
+</pre>
+        <h3>output</h3>
+        <pre>150
+</pre>
+    <hr>
+    </div>
+
+     <div class="herosection14">
+        <h2>
+Question 15: Create an object for a student with name and marks properties. Write a function that prints the student's name and marks.
+</h2>
+        <h3>code:</h3>
+        <pre>
+
+let student = {
+    name: "Ali",
+    marks: 85
+};
+
+function printStudent(student) {
+    console.log(student.name);
+    console.log(student.marks);
+}
+
+printStudent(student);
+
+
+</pre>
+        <h3>output</h3>
+        <pre>
+Ali
+85
+
+</pre>
+    <hr>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

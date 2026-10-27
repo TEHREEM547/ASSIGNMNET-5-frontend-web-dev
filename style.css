@@ -1,0 +1,75 @@
+body{
+    /* margin: 0%;
+    padding: 0%; */
+    box-sizing: border-box;
+
+}
+.heading{
+    background-color:rgb(208, 174, 240);
+    text-align: center;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+
+}
+.herosection{
+    background-color: rgba(247, 198, 225, 0.543);
+    padding: 5px;
+    
+}
+.herosection2{
+    background-color: rgba(233, 251, 155, 0.305);
+      padding: 5px;
+}
+.herosection3{
+    background-color: rgba(184, 243, 254, 0.418);
+    padding: 5px;
+}
+.herosection4{
+    background-color: rgba(233, 172, 245, 0.418);
+    padding: 5px;
+}
+.herosection5{
+    background-color: rgba(167, 168, 249, 0.418);
+    padding: 5px;
+}
+.herosection6{
+    background-color: rgba(247, 148, 151, 0.418);
+    padding: 5px;
+}
+.herosection7{
+    background-color: rgba(148, 247, 158, 0.418);
+    padding: 5px;
+}
+.herosection8{
+    background-color: rgba(222, 247, 148, 0.418);
+    padding: 5px;
+}
+.herosection9{
+    background-color: rgba(236, 244, 129, 0.418);
+    padding: 5px;
+}
+.herosection10{
+    background-color: rgba(129, 244, 221, 0.418);
+    padding: 5px;
+}
+.herosection11{
+    background-color: rgba(129, 187, 244, 0.418);
+    padding: 5px;
+}
+.herosection12{
+    background-color: rgba(129, 244, 135, 0.418);
+    padding: 5px;
+}
+.herosection13{
+    background-color: rgba(162, 129, 244, 0.418);
+    padding: 5px;
+}
+.herosection14{
+    background-color: rgba(244, 129, 177, 0.418);
+    padding: 5px;
+}
+.herosection15{
+    background-color: aquamarine;
+    padding: 5px;
+}
